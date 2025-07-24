@@ -1,30 +1,23 @@
-# 📉 Customer Churn Prediction (ML Project)
 
-A machine learning project to predict customer churn using telecom data. Built with Python and scikit-learn, includes EDA, preprocessing, feature importance, and Random Forest modeling.
+# 📦 Sales Data Analysis with SQL
 
-## 🔧 Tech Stack
-- Python, Pandas, NumPy
-- scikit-learn, Seaborn, Matplotlib
-- Random Forest Classifier
+A mini SQL project to analyze sales, customers, and product performance using SQL queries.
 
-## 📊 Dataset
-- Source: [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+## 📁 Tables
+- `customers`: Customer details
+- `products`: Product catalog
+- `orders`: Order transactions
 
-## 📁 Project Structure
-```
-customer-churn-ml/
-├── churn_prediction.py
-├── telecom_churn.csv
-├── requirements.txt
-└── README.md
-```
+## 🔍 Insights Generated
+- Revenue by product category
+- Top spending customers
+- Monthly revenue trends
 
-## ✅ Features
-- Handles missing values and encodes categorical variables
-- Trains a Random Forest classifier
-- Evaluates using accuracy, confusion matrix, classification report
-- Visualizes feature importance
+## 🧪 Tech Stack
+- MySQL / PostgreSQL
+- SQL (joins, aggregations, formatting, group by)
 
-## 📈 Output
-- Accuracy: ~85% (varies)
-- Model saved as `churn_model.pkl`
+## 💡 Skills Demonstrated
+- Data modeling
+- Writing analytical queries
+- Business intelligence
